@@ -9,10 +9,12 @@
     align-self: center;
     gap: 10px;
 }
-.nav-logo>p{
+.logo-name{
     font-size: 34px;
     color: #171717;
     font-weight: 600;
+    position: relative;
+    top: 18px
 }
 .nav-menu{
     display: flex;
@@ -44,7 +46,7 @@
     gap: 45px;
 
 }
-.login-card>button{
+.login-btn{
     width: 157px;
     height: 58px;
     outline: none;
