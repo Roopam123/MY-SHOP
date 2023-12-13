@@ -6,16 +6,6 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [menu,setMenu] = useState("shop")
-  // const [fixednav,setFixednav] = useState(false)
-
-  // handle = ()=>{
-  //   window.addEventListener("scroll",()=>{
-  //     if (window.screenY>200) {
-  //       setFixednav(true)
-  //     }
-  //   })
-  // }
-
   return (
     <div className='navbar'>
       <div className='nav-logo'>
@@ -23,10 +13,11 @@ const Navbar = () => {
         <Link to='/' style={{textDecoration:"none"}}><p className='logo-name'>MY STORE</p></Link>
       </div>
       <ul className='nav-menu'>
-        <li onClick={()=>setMenu("shop")}><Link to='/' style={{textDecoration:'none'}}>Shop</Link> {menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>setMenu("man")}><Link to='/mans' style={{textDecoration:'none'}}>Mens</Link>{menu==="man"?<hr/>:<></>}</li>
-        <li onClick={()=>setMenu("woman")}><Link to='/womans' style={{textDecoration:'none'}}>Womans</Link>{menu==="woman"?<hr/>:<></>}</li>
-        <li onClick={()=>setMenu("kids")}><Link to='/kids' style={{textDecoration:'none'}}>Kids</Link> {menu==="kids"?<hr/>:<></>}</li>
+        <li onClick={()=>setMenu("shop")}><Link to='/' className='nav-content' style={{textDecoration:'none'}}>Shop</Link> {menu==="shop"?<hr/>:<></>}</li>
+        <li onClick={()=>setMenu("man")}><Link to='/mans' style={{textDecoration:'none'}} className='nav-content'>Mens</Link>{menu==="man"?<hr/>:<></>}</li>
+        <li onClick={()=>setMenu("woman")}><Link to='/womans' style={{textDecoration:'none'}}
+        className='nav-content'>Womans</Link>{menu==="woman"?<hr/>:<></>}</li>
+        <li onClick={()=>setMenu("kids")}><Link to='/kids' style={{textDecoration:'none'}} className='nav-content'>Kids</Link> {menu==="kids"?<hr/>:<></>}</li>
       </ul>
       <div className='login-card'>
        <Link to='/login'><button className='login-btn'>Login</button></Link>

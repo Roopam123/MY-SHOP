@@ -30,12 +30,15 @@
     font-size: 20px;
     font-weight: 500;
 }
-.nav-menu>li>Link{
+.nav-content{
     display: flex;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
     gap: 3px;
+    color: #616161;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 .nav-menu>li>hr{
     border: none;

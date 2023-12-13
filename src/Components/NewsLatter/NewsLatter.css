@@ -1,0 +1,55 @@
+.newlatter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    margin-top: 100px;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: rgb(241, 206, 221);
+    background: radial-gradient(circle, rgb(236, 200, 215) 0%, rgba(255,255,255,1) 100%);
+}
+.newlatter h1{
+    color: #454545;
+    font-size: 50px;
+    font-weight: 500;
+}
+.newlatter p{
+    color: #454545;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.newslatter-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newslatter-input input{
+    border: none;
+    width: 500px;
+    outline: none;
+    color: #616161;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.newslatter-input button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}

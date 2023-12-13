@@ -42,7 +42,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: end;
+    /* justify-content: end; */
     padding-top: 50px;
     transform: scale(0.87);
 }
