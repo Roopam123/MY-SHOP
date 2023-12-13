@@ -6,11 +6,21 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [menu,setMenu] = useState("shop")
+  // const [fixednav,setFixednav] = useState(false)
+
+  // handle = ()=>{
+  //   window.addEventListener("scroll",()=>{
+  //     if (window.screenY>200) {
+  //       setFixednav(true)
+  //     }
+  //   })
+  // }
+
   return (
     <div className='navbar'>
       <div className='nav-logo'>
         <Link to='/'><img src={Logo} alt="logo" /></Link>
-        <Link style={{textDecoration:"none"}}><p className='logo-name'>MY STORE</p></Link>
+        <Link to='/' style={{textDecoration:"none"}}><p className='logo-name'>MY STORE</p></Link>
       </div>
       <ul className='nav-menu'>
         <li onClick={()=>setMenu("shop")}><Link to='/' style={{textDecoration:'none'}}>Shop</Link> {menu==="shop"?<hr/>:<></>}</li>

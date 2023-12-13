@@ -6,6 +6,8 @@
     /* extra background */
     /* background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 55%); */
+    /* position: sticky;
+    top: 1px; */
 }
 .nav-logo{
     display: flex;
@@ -28,7 +30,7 @@
     font-size: 20px;
     font-weight: 500;
 }
-.nav-menu>li{
+.nav-menu>li>Link{
     display: flex;
     cursor: pointer;
     flex-direction: column;
