@@ -12,10 +12,13 @@
     gap: 20px;
 }
 .footer-brand span{
-    font-size: 40px;
+    font-size: 44px;
+    margin-left: 16px;
     font-weight: 600;
     /* color: #616161; */
     color: black;
+    position: relative;
+    bottom: 13px;;
 }
 
 .footer-mid ul{
