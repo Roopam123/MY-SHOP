@@ -13,7 +13,6 @@ const RelatedProducts = (props) => {
         <div className='relatedProduct-items'>
           { all_product.map((ele,i)=>{
               if (ele.category===product.category) {
-                console.log(product.name===ele.name);
                 return <Items
                 key={i} 
                 id={ele.id} 
