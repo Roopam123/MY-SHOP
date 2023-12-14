@@ -9,3 +9,10 @@
     text-transform: capitalize;
     margin: 50px 170px;
 }
+.prodIduct span{
+    background: #949393;
+    color: white;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}

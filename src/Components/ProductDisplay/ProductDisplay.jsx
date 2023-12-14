@@ -7,7 +7,6 @@ const ProductDisplay = (props) => {
     const {product} = props
   return (
     <div className='product-display'>
-        {console.log(product)}
         <div className='product-display-left'>
             <div className='productdisplay-image-list'>
                 <img src={product.image} alt="" />
