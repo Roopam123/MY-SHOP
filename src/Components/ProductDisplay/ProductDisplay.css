@@ -1,0 +1,104 @@
+.product-display{
+    display: flex;
+    margin: 100px 170px;
+
+}
+.product-display-left{
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-image-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.productdisplay-image-list img{
+    height: 163px;
+}
+.productdisplay-main-img{
+    width: 586px;
+    height: 700px;
+}
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+.product-display-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 15px;
+    color: #1c1c1c;
+    font-size: 18px;
+}
+
+.product-display-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.productdisplay-right-prices-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-prices-new{
+    color: #ff4141;
+}
+.product-display-right-one{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product-display-right-size{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+.product-display-right-size div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-card button{
+    padding: 20px 4px;
+    width: 200px;
+    font-size: 18px;
+    font-size: 600;
+    background: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+.product-display-right-category{
+    margin-top: 16px;
+}
+.product-display-right-category span{
+    font-weight: 600;
+}
+.productdisplay-image-list img:hover{
+    transform: scale(1.1);
+    transition-duration: 10ms;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid #b1a8a8;
+}
+.product-display-right-size div:hover{
+    transform: scale(1.05);
+    background: #cc9e9e;
+    color: white;
+}
